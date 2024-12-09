@@ -32,7 +32,7 @@ export default function Home() {
             <Table />
           </div>
           <div className="flex flex-col h-full rounded-lg overflow-hidden bg-black">
-            <Image src="/avatar.png" alt="icon" width={400} height={256}/>
+            <Image src="/avatar.png" alt="icon" width={400} height={256} />
             <div className="bg-[#2F2F2F] text-center text-white text-opacity-80 py-4">
               <p className="text-4xl">Tom Brady</p>
               <p className="text-[128px] leading-[172px]">51</p>
@@ -41,9 +41,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-      
-
-      
     </div>
   );
 }
